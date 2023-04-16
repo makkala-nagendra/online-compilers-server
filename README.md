@@ -8,20 +8,20 @@ To get started with the server, follow these steps:
 
 1 . Clone the repository to your local machine:
 
-```git
+```bash
 git clone https://github.com/makkala-nagendra/online-compilers-server.git
 ```
 
 2 . Install the required dependencies:
 
-```git
+```bash
 cd online-compilers-server
 npm install
 ```
 
 3 . Start the server:
 
-```git
+```bash
 npm start
 ```
 
