@@ -35,4 +35,3 @@ Once the server is running, you can use it to compile and execute code in variou
 + c#
 + Java
 + Python
-+ go
