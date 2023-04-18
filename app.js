@@ -5,7 +5,7 @@ import { randomBytes } from "crypto";
 import { existsSync, mkdirSync, writeFileSync, rm } from "fs";
 
 // Change Local Paths
-const path = "C:/Users/Name/Documents/Code/compilers/tmp";
+const path = "C:/Users/Name/Documents/Code/compilers/tmp"; // working Directory
 const mcsPath = "cd C:\\program files\\Mono\\bin\\ &&";
 
 // Create directory for compilers
