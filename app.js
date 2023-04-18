@@ -6,7 +6,7 @@ import { existsSync, mkdirSync, writeFileSync, rm } from "fs";
 
 // Change Local Paths
 const path = "C:/Users/Name/Documents/Code/compilers/tmp"; // working Directory
-const mcsPath = "cd C:\\program files\\Mono\\bin\\ &&";
+const mcsPath = "cd C:\\program files\\Mono\\bin\\ &&"; // C# compiler Path
 
 // Create directory for compilers
 if (!existsSync(path)) {
