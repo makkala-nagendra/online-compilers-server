@@ -1,11 +1,13 @@
 import { exec } from "child_process";
 import { Server } from "ws";
-const wss = new Server({ port: 8080 });
 import { randomBytes } from "crypto";
 import { existsSync, mkdirSync, writeFileSync, rm } from "fs";
 
+
+const wss = new Server({ port: 8080 });
+
 // Change Local Paths
-const path = "C:/Users/Name/Documents/Code/compilers/tmp"; // working Directory
+const path = `${__dirname}\\tmp`; // working Directory
 const mcsPath = "cd C:\\program files\\Mono\\bin\\ &&"; // C# compiler Path
 
 // Create directory for compilers
